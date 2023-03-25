@@ -2,19 +2,26 @@
 
 #### A debug tool for embedded development.
 
-- document: todo
+- document: [https://makerinchina.cn/wiki/](https://makerinchina.cn/wiki/)
 
-- screenshot of rtt log viewer:(use cmsis-dap and SEGGER RTT print color log library)
-  ![](screenshot-rtt.png)
+- screenshot of rtt log viewer:(use cmsis-dap V2 and SEGGER RTT print color log library)
+   ![](screenshot-rtt.png)
+- screenshot of serial log viewer:(CH340 usb)
+   ![](screenshot-serial.png)
 
-- screenshot of serial log viewer:(test on ESP32 log)
-  ![](screenshot-serial.png)
-
-- screenshot of serial and dap plot viewer:(v0.02 update)
+- screenshot of dap plot viewer:(v0.02 update)
 
   ![image-20230114225442650](screenshot-rtt-plot.png)
 
-- mywebsite: [https://makerinchina.cn](https://makerinchina.cn)
+- screenshot of serial plot viewer:(v0.02 update)
+
+  ![serial-plot](screenshot-serial-plot.png)
+
+
+
+
+
+- **More Info on my website:** [https://makerinchina.cn](https://makerinchina.cn)
 
 
 
@@ -24,10 +31,16 @@
 
 - TODO:
   - log level filter
-  - modbus
+  - modbus view
   - ...
 
 ##### Release Notes
+
+- V0.03 Beta
+
+|         | Support                                                      | Test |
+| ------- | ------------------------------------------------------------ | ---- |
+| DapLink | Support CMSIS DAP V2 winusb Device ( HID version now removed) | -    |
 
 - V0.02 Beta
 
