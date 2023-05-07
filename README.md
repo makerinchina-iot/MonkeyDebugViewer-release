@@ -6,6 +6,7 @@
 
 - screenshot of rtt log viewer:(use cmsis-dap V2 and SEGGER RTT print color log library)
    ![](screenshot-rtt.png)
+   
 - screenshot of serial log viewer:(CH340 usb)
    ![](screenshot-serial.png)
 
@@ -17,9 +18,15 @@
 
   ![serial-plot](screenshot-serial-plot.png)
 
+- screenshot of serial shell viewer:(v0.04 update)
 
+  ![](screenshot-uart-shell.png)
 
+- screenshot of daplink shell viewer:(v0.04 update)
 
+  ![](screenshot-daplink-shell.png)
+  
+  
 
 - **More Info on my website:** [https://makerinchina.cn](https://makerinchina.cn)
 
@@ -35,6 +42,13 @@
   - ...
 
 ##### Release Notes
+
+- V0.04 Beta
+
+|              | Support               | Test |
+| ------------ | --------------------- | ---- |
+| DapLink View | add shell view(vt100) | -    |
+| Serial View  | add shell view(vt100) | -    |
 
 - V0.03 Beta
 
