@@ -4,29 +4,26 @@
 
 - document: [https://makerinchina.cn/wiki/](https://makerinchina.cn/wiki/)
 
-- screenshot of rtt log viewer:(use cmsis-dap V2 and SEGGER RTT print color log library)
-   ![](screenshot-rtt.png)
+- screenshot of log viewer with Serial or DAPLink :
+   ![image-20241020123351614](README/image-20241020123351614.png)
    
-- screenshot of serial log viewer:(CH340 usb)
-   ![](screenshot-serial.png)
-
-- screenshot of dap plot viewer:(v0.02 update)
-
-  ![image-20230114225442650](screenshot-rtt-plot.png)
-
-- screenshot of serial plot viewer:(v0.02 update)
-
-  ![serial-plot](screenshot-serial-plot.png)
-
-- screenshot of serial shell viewer:(v0.04 update)
-
-  ![](screenshot-uart-shell.png)
-
-- screenshot of daplink shell viewer:(v0.04 update)
-
-  ![](screenshot-daplink-shell.png)
+- screenshot of plot viewer with Serial or DAPLink :
   
-  
+   ![image-20241020121909069](README/image-20241020121909069.png)
+   
+- screenshot of shell viewer with Uart or DAPLink :
+
+  ![image-20241020124757059](README/image-20241020124757059.png)
+
+- screenshot of serial Contrl view:
+
+  ![image-20241020125035007](README/image-20241020125035007.png)
+
+- screenshot of Tool View:
+
+   ![image-20241020125313581](README/image-20241020125313581.png)  
+
+   
 
 - **More Info on my website:** [https://makerinchina.cn](https://makerinchina.cn)
 
@@ -37,11 +34,18 @@
 
 
 - TODO:
-  - log level filter
   - modbus view
+  - some useful tools for MCU development
   - ...
 
 ##### Release Notes
+
+- V0.05 Beta
+
+|             | Suport                                                      | Test                                     |
+| ----------- | ----------------------------------------------------------- | ---------------------------------------- |
+| Serial View | add Serial Control view                                     | ESP8266 AT cmd List                      |
+| Tool View   | add Actions Running tool; add LCD font and picture gen tool | Flash tool Action; u8g2 lib picture show |
 
 - V0.04 Beta
 
